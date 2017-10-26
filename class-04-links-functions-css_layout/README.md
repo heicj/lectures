@@ -12,6 +12,7 @@
 - HTML links
 - GitHub fork and PR
 - Lab Prep: Pair Programming!!
+- Go to HAPPY HOUR!
 
 ### Announcements
 - Thoughts on lab time:
@@ -85,7 +86,7 @@
 
 ---
 
-### Readings
+### Readings - optional
 
 - HTML Chapter 4: "Links"
 - CSS Chapter 15: "Layout"
