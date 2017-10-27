@@ -139,12 +139,19 @@ new branch for your work on the next question!
 // Write your code here
 
 function sumArray(testArray){ //eslint-disable-line
-
+    console.log('test');
+    let sumTotal = 0;
+    for (let i = 0; i < testArray.length; i++){
+        sumTotal = sum(sumTotal,testArray[i])[0];
+        
+        console.log('sum total is' + sumTotal);
+    }
+    return[sumTotal, testArray + ' was passed in as an array of numbers, and ' + sumTotal + ' is their sum.'];
 }
 
 
 // Here is the test for sumArray(); uncomment it to run it
-// testSumArray();
+testSumArray();
 
 
 /////////////////////////////////////
