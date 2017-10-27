@@ -180,8 +180,12 @@ new branch for your work on the next question!
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+    let productTotal = 1;
+    for (let i = 0; i < testArray.length; i++){
+        productTotal = multiply(productTotal, testArray[i])[0];
+        console.log('productTotal retuns ' + productTotal);}
+    return[productTotal,'The numbers ' + testArray + ' have a product of ' + productTotal + '.'];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray();
+testMultiplyArray();
