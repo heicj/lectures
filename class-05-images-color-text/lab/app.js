@@ -94,11 +94,23 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+    const sumOne = sum(a,b)[0];
+    const sumTotal = sum(sumOne,c)[0];
+    console.log(sumOne);
+    console.log(sumTotal);
+    
+    const prodOne = multiply(a,b)[0];
+    const prodTotal = multiply(prodOne,c)[0];
+    console.log(prodOne);
+    console.log(prodTotal);
 
+    const elemThree = a + ' and ' + b + ' and ' + c + ' sum to ' + sumTotal + '.';
+    const elemFour = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + prodTotal + '.';
+    return [sumTotal, prodTotal, elemThree, elemFour];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 
 /////////////////////////////////////

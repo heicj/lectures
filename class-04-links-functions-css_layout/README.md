@@ -10,7 +10,7 @@
 - MONKEYS functions
 - CSS rules and positioning
 - HTML links
-- GitHub fork and PR
+- GitHub fork and PRls
 - Lab Prep: Pair Programming!!
 - Go to HAPPY HOUR!
 
