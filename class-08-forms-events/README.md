@@ -28,6 +28,8 @@
 - Update the DOM using user input.
 
 ## Notes
+* Code Review
+    * [PR to Brance's Salmon Cookies](https://github.com/brancep/cookie-stand/pull/1/files?diff=unified)
 * HTML forms
     * Use form elements to collect/capture information from a user
         * text data, choices, actions
